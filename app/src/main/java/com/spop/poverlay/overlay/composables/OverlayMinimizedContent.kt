@@ -149,7 +149,7 @@ fun OverlayMinimizedContent(
             )
             Spacer(modifier = Modifier.width(4.dp))
             OverlayTimerField(
-                modifier = Modifier.width(58.dp),
+                modifier = Modifier.width(64.dp),
                 timerLabel = caloriesLabel,
                 iconDrawable = R.drawable.ic_calories
             )
