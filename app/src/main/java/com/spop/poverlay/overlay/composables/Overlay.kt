@@ -149,7 +149,6 @@ fun Overlay(
             isMinimized = minimized,
             showTimerWhenMinimized = showTimerWhenMinimized,
             location = location,
-            powerLabel = power,
             cadenceLabel = rpm,
             resistanceLabel = resistance,
             speedLabel = speed,
