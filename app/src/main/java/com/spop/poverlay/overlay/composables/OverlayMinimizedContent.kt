@@ -37,7 +37,6 @@ fun OverlayMinimizedContent(
     isMinimized: Boolean,
     showTimerWhenMinimized: Boolean,
     location: OverlayLocation,
-    powerLabel: String,
     cadenceLabel: String,
     speedLabel: String,
     resistanceLabel: String,
@@ -142,12 +141,6 @@ fun OverlayMinimizedContent(
         )
 
         if (isMinimized) {
-            Spacer(modifier = Modifier.width(4.dp))
-            OverlayTimerField(
-                modifier = Modifier.width(58.dp),
-                timerLabel = powerLabel,
-                iconDrawable = R.drawable.ic_power
-            )
             Spacer(modifier = Modifier.width(4.dp))
             OverlayTimerField(
                 modifier = Modifier.width(58.dp),
