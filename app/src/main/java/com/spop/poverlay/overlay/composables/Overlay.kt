@@ -150,7 +150,7 @@ fun Overlay(
             timerPaused = isTimerPaused,
             showTimerWhenMinimized = showTimerWhenMinimized,
             location = location,
-            powerLabel = power,
+            caloriesLabel - calories,
             contentAlpha = timerAlpha,
             timerLabel = timerLabel,
             cadenceLabel = rpm,
